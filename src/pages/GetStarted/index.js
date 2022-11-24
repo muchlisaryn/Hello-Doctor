@@ -1,6 +1,6 @@
 import {View, Text, StyleSheet, ImageBackground} from 'react-native';
 import React from 'react';
-import {ILlogo, Background} from '../../assets';
+import {Background, Logo} from '../../assets';
 import {Button} from '../../component';
 import Gap from '../../component/atoms/Gap';
 
@@ -8,7 +8,7 @@ export default function GetStarted({navigation}) {
   return (
     <ImageBackground source={Background} style={styles.pages}>
       <View>
-        <ILlogo />
+        <Logo />
         <Text style={styles.title}>
           Konsultasi dengan dokter jadi lebih mudah & fleksibel
         </Text>
