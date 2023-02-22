@@ -3,7 +3,7 @@ import React from 'react';
 import {Logo} from '../../assets/ilustration';
 import {Button, Input, Link, Gap} from '../../component';
 
-export default function Login() {
+export default function Login({navigation}) {
   return (
     <View style={styles.page}>
       <Logo />
@@ -14,7 +14,7 @@ export default function Login() {
       <Gap height={10} />
       <Link text="Forgot My Password" size={12} />
       <Gap height={40} />
-      <Button title="Login" />
+      <Button title="Login" onPress={() => navigation.replace('MainApp')} />
       <Gap height={30} />
       <Link text="Create New Account" size={16} align="center" />
     </View>

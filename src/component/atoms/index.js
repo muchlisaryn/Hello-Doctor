@@ -2,5 +2,6 @@ import Button from './Button';
 import Gap from './Gap';
 import Input from './Input';
 import Link from './Link';
+import TabItem from './TabItem';
 
-export {Button, Input, Gap, Link};
+export {Button, Input, Gap, Link, TabItem};

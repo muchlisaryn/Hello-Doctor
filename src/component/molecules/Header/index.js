@@ -26,6 +26,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 20,
     fontFamily: 'Nunito-SemiBold',
-    color: colors.text.primary,
+    color: colors.black,
   },
 });
